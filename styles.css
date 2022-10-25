@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #f3f3f3;
+    background-image: url("https://camo.githubusercontent.com/d069971a0af4d9e393066dc77ced000cff23a1f6bbfbb9e7704a870192a926ca/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f66726565636f646563616d702f776964652d736f6369616c2d62616e6e65722e706e67");
+    image-opacity: 40%;
+  }
+  
+  h1, p {
+    padding: 0 0.625rem;
+    margin: 10px auto; 
+  }
+  
+  fieldset {
+    background-color: rgba(27, 27, 50, 0.8);
+    width: 60%;
+    margin: auto;
+    border: none;
+    padding-top: auto;
+  }
+  
+  label {
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  input, select, textarea {
+    display: block;
+    /* margin: 0.5rem 0; */
+    min-height: 2em;
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  
+  input[type="text"] {
+    padding: 1px 2px;
+  }
+  
+  option {
+    color:rgb(133, 133, 133);
+  }
+  option:selected {
+    color:rgb(133, 133, 133);
+  }
+  
+  .inline {
+    display: inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  button {
+    display: block;
+    background-color: green;
+    border: none;
+    color: white;
+    min-width: 300px;
+    margin: 1em auto;
+    height: 2em;
+  }
