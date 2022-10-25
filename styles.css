@@ -7,9 +7,16 @@ body{
     image-opacity: 40%;
   }
   
+header {
+    width: 60%;
+    text-align: center;
+  }
+
   h1, p {
     padding: 0 0.625rem;
-    margin: 10px auto; 
+    margin: auto; 
+    margin-top: 10px;
+    text-align: center; 
   }
   
   fieldset {
@@ -59,4 +66,4 @@ body{
     min-width: 300px;
     margin: 1em auto;
     height: 2em;
-  }
+}
