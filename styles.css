@@ -12,6 +12,7 @@ body{
 header {
     width: 60%;
     text-align: center;
+    margin-bottom: 10px;
   }
 
   h1, p {
